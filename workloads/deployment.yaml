@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: shoppingcartservice
-        image: docker.io/octonato/shopping-cart-service:0.0.0-2-1a07fbbd-20200929-1716
+        image: docker.io/octonato/shopping-cart-service:0.0.0-4-7d43d55e
           # remove for real clusters, useful for minikube
           #imagePullPolicy: Never
         readinessProbe:
